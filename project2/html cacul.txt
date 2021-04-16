@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>    
+   <meta charset="UTF-8">
+   <title>www.project.html</title> 
+    <link rel="stylesheet" type="text/css" href="project.css">
+ </head>    
+ <body>
+     <div class="sec">
+     <header>tip caculator</header>
+     <div id="sec1">  
+     <div class="a">How much was your bill?</div>
+     <div class="b">$ <input type="text" placeholder="Bill Amount" id="inpu1"></div>
+     <div class="a">How was your service?</div>
+     <select id="list">
+       <option value = "0" disabled selected>-- Choose an Option --</option>   
+       <option value="0.3">30% - Outstanding</option>
+       <option value="0.2">20% - Good</option>
+       <option value="0.15">15% - It was OK</option>
+       <option value="0.1">10% - Bad</option>
+       <option value="0.05">5% - Terrible</option>
+     </select>
+     <div class="a">How many people are sharing the bill?</div>
+     <div class="c"><input type="text" placeholder="Number of people" id="inpu2"> people</div>
+     <div>
+         <button  onclick="calcul()">CALCULATE!</button>
+     </div>
+          <div id="end" class="result"></div>
+          <div id="end1" class="result1"></div>
+          <div id="end2" class="result2"></div>
+     </div>   
+     </div>     
+    <script src="proj2.js"></script> 
+ </body>
+</html>    
